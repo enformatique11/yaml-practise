@@ -1,6 +1,6 @@
 name: Test Script
 
-on: [push, pull]
+on: [feature1]
 
 jobs:
   run-git-hub-actions:
