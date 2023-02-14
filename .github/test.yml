@@ -1,0 +1,12 @@
+name: Test Script
+
+on: [push]
+
+jobs:
+  run-git-hub-actions:
+    runs: ubuntu latest
+    steps:
+      - name: Simple JS action 
+        uses: actions/hello-world-javascript-action@v1
+        with:
+          who-to-greet: John Master
